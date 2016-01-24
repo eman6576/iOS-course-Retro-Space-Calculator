@@ -41,24 +41,31 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func numberPressed(sender: UIButton!) {
+    @IBAction func numberPressed(button: UIButton!) {
         buttonSound.play()
+        
+        runningNumber += "\(button.tag)"
+        outputLabel.text = runningNumber
     }
     
-    @IBAction func onDividePressed(sender: AnyObject) {
+    @IBAction func onDividePressed(button: UIButton!) {
         
     }
     
-    @IBAction func onMultiplyPressed(sender: AnyObject) {
+    @IBAction func onMultiplyPressed(button: UIButton!) {
+        
     }
     
-    @IBAction func onSubtractPressed(sender: AnyObject) {
+    @IBAction func onSubtractPressed(button: UIButton!) {
+        
     }
     
-    @IBAction func onAddPressed(sender: AnyObject) {
+    @IBAction func onAddPressed(button: UIButton!) {
+        
     }
     
-    @IBAction func onEqualPressed(sender: AnyObject) {
+    @IBAction func onEqualPressed(button: UIButton!) {
+        
     }
 }
 
