@@ -277,6 +277,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xDA-C6-ZDa" secondAttribute="bottom" id="z7c-VF-lB1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLabel" destination="2Zd-5U-jaf" id="KeD-TV-AgK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
