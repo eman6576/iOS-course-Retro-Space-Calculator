@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88A100741C54833400E4883F /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 88A100731C54833400E4883F /* btn.wav */; };
 		88A2F18B1C52B12A00C80980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2F18A1C52B12A00C80980 /* AppDelegate.swift */; };
 		88A2F18D1C52B12A00C80980 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2F18C1C52B12A00C80980 /* ViewController.swift */; };
 		88A2F1901C52B12A00C80980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A2F18E1C52B12A00C80980 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88A100731C54833400E4883F /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		88A2F1871C52B12A00C80980 /* RetroSpaceCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroSpaceCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A2F18A1C52B12A00C80980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88A2F18C1C52B12A00C80980 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				88A2F1911C52B12A00C80980 /* Assets.xcassets */,
 				88A2F1931C52B12A00C80980 /* LaunchScreen.storyboard */,
 				88A2F1961C52B12A00C80980 /* Info.plist */,
+				88A100731C54833400E4883F /* btn.wav */,
 			);
 			path = RetroSpaceCalculator;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A100741C54833400E4883F /* btn.wav in Resources */,
 				88A2F1951C52B12A00C80980 /* LaunchScreen.storyboard in Resources */,
 				88A2F1921C52B12A00C80980 /* Assets.xcassets in Resources */,
 				88A2F19D1C52C1C900C80980 /* Minecraft.ttf in Resources */,
@@ -289,6 +293,7 @@
 				88A2F19B1C52B12A00C80980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
