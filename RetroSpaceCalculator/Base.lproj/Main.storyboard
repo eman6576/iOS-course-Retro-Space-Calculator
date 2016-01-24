@@ -267,8 +267,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zd-5U-jaf">
-                                <rect key="frame" x="460" y="59" width="200" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zd-5U-jaf">
+                                <rect key="frame" x="194" y="90" width="200" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Hnf-cz-oHB"/>
                                     <constraint firstAttribute="height" constant="29" id="KiU-Bx-WEk"/>
@@ -282,7 +282,9 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="qAg-OH-AcY" secondAttribute="trailing" id="54h-Jr-zRe"/>
                             <constraint firstItem="uQo-kJ-5Op" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GLz-qH-m0a"/>
+                            <constraint firstAttribute="centerY" secondItem="2Zd-5U-jaf" secondAttribute="centerY" constant="200" id="LcP-zn-C1a"/>
                             <constraint firstItem="qAg-OH-AcY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PjF-cR-z8o"/>
+                            <constraint firstItem="2Zd-5U-jaf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZKl-yo-JQa"/>
                             <constraint firstItem="De9-99-pzT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="kd6-en-DT4"/>
                             <constraint firstItem="De9-99-pzT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o4G-kN-xFk"/>
                             <constraint firstItem="xDA-C6-ZDa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sUJ-MJ-wj3"/>
