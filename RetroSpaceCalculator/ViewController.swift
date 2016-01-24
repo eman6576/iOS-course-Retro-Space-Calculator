@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var outputLabel: UILabel!
     
     var buttonSound: AVAudioPlayer!
+    
     var runningNumber = ""
     var leftValueString = ""
     var rightValueString = ""
@@ -42,30 +43,51 @@ class ViewController: UIViewController {
     }
     
     @IBAction func numberPressed(button: UIButton!) {
-        buttonSound.play()
+        playSound()
         
         runningNumber += "\(button.tag)"
         outputLabel.text = runningNumber
     }
     
     @IBAction func onDividePressed(button: UIButton!) {
-        
+        processOperation(Operation.Divide)
     }
     
     @IBAction func onMultiplyPressed(button: UIButton!) {
-        
+        processOperation(Operation.Multiply)
     }
     
     @IBAction func onSubtractPressed(button: UIButton!) {
-        
+        processOperation(Operation.Subtract)
     }
     
     @IBAction func onAddPressed(button: UIButton!) {
-        
+        processOperation(Operation.Add)
     }
     
     @IBAction func onEqualPressed(button: UIButton!) {
+        processOperation(Operation.Equals)
+    }
+    
+    func processOperation(operation: Operation) {
+        playSound()
         
+        if currentOperation != Operation.Empty {
+            
+        } else {
+            //This is the first time an operator has been pressed
+            leftValueString = runningNumber
+            runningNumber = ""
+            currentOperation = operation
+        }
+    }
+    
+    func playSound() {
+        if buttonSound.playing {
+            buttonSound.stop()
+        }
+        
+        buttonSound.play()
     }
 }
 
