@@ -20,13 +20,33 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="Vcv-sb-s4c">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="iE4-61-KwZ">
+                                <rect key="frame" x="180" y="185" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="kMX-kF-vdV"/>
+                                    <constraint firstAttribute="height" constant="128" id="p6p-sq-Zpv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="Paw-b5-9y4">
+                                <rect key="frame" x="133" y="40" width="334" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="5ie-un-jqP"/>
+                                    <constraint firstAttribute="width" constant="334" id="Hqv-2w-iep"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="iE4-61-KwZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3AX-3o-0E7"/>
                             <constraint firstAttribute="trailing" secondItem="Vcv-sb-s4c" secondAttribute="trailing" id="5ak-SE-L9Y"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Vcv-sb-s4c" secondAttribute="bottom" id="6gO-L8-9DX"/>
+                            <constraint firstItem="Paw-b5-9y4" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="20" id="UHu-2j-ymY"/>
                             <constraint firstItem="Vcv-sb-s4c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="YjC-wM-1yS"/>
                             <constraint firstItem="Vcv-sb-s4c" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="gcd-kP-sES"/>
+                            <constraint firstItem="Paw-b5-9y4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hmE-q7-44v"/>
+                            <constraint firstItem="iE4-61-KwZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="mpO-nw-Hdr"/>
+                            <constraint firstItem="Paw-b5-9y4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oIO-Fg-q7U"/>
+                            <constraint firstItem="iE4-61-KwZ" firstAttribute="top" secondItem="Paw-b5-9y4" secondAttribute="bottom" constant="96" id="zXB-Q9-49O"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,6 +56,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
         <image name="launchbg" width="1433" height="957"/>
+        <image name="robot" width="786" height="402"/>
     </resources>
 </document>
