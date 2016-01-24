@@ -69,6 +69,10 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
+    @IBAction func onClearPressed(button: UIButton!) {
+        resetCalculator()
+    }
+    
     func processOperation(operation: Operation) {
         playSound()
         
@@ -100,6 +104,16 @@ class ViewController: UIViewController {
             runningNumber = ""
             currentOperation = operation
         }
+    }
+    
+    func resetCalculator() {
+        runningNumber = ""
+        leftValueString = ""
+        rightValueString = ""
+        result = ""
+        currentOperation = Operation.Empty
+        
+        outputLabel.text = "0"
     }
     
     func playSound() {
